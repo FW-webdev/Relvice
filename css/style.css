@@ -137,6 +137,25 @@ body {
 	z-index: 2;
 	margin-top: -111px;
 }
+.page__advantages { }
+
+/* ------------------------- HEADER BLOCK ----------------------- */
+.header-block {
+	text-align: center;
+	letter-spacing: 0.01em;
+}
+.header-block__title {
+	font-weight: 700;
+	font-size: 40px;
+	line-height: 142%;
+}
+.header-block__title:not(:last-child) {
+	margin-bottom: 10px;
+}
+.header-block__sub-title {
+	color: #737373;
+	line-height: 142%;
+}
 
 /* ------------------- MAIN BLOCK ------------------ */
 .page { }
@@ -292,6 +311,21 @@ body {
 	letter-spacing: 0.01em;
 	color: #737373;
 }
+
+/* ---------------------- ADVANTAGES ------------------ */
+.advantages {
+	padding: 80px 0;
+}
+.advantages__container { }
+.advantages__header {
+	margin-bottom: 50px;
+}
+.advantages__body { }
+.advantages__column { }
+.advantages__item { }
+.advantages__icon { }
+.advantages__value { }
+.advantages__text { }
 
 /* ------------------ ПОДВАЛ ----------------------- */
 .footer {
